@@ -64,3 +64,16 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: local;
+    background-position: 50%;
+    height: 800px;
+}
