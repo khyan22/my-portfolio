@@ -64,6 +64,12 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+span {
+    font-weight: bold;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 2px;
+}
+
 .hero {
     background-image: url('../images/hero.jpg');
     background-size: cover;
@@ -118,4 +124,87 @@ header nav ul li a:hover {
     height: 100%;
 }
 
+.projects {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.projects h2 {
+    font-size: 70px;
+    border-bottom: 3px solid var(--secondary-color) ;
+}
+
+.run-buddy {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.run-buddy h3 {
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.run-buddy p {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.horiseon {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.horiseon h3 {
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.horiseon p {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+}
+
+.contact h2 {
+    font-size: 70px;
+    flex: 1 100%;
+    text-align: center;
+    padding: 0 0 35px 0;
+}
+
+.contact article {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.contact article ul {
+    list-style: none;
+    text-align: center;
+}
+
+.contact article ul li {
+    padding: 0 0 30px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
