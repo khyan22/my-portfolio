@@ -130,6 +130,7 @@ span {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .projects h2 {
@@ -138,9 +139,6 @@ span {
 }
 
 .run-buddy {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
     align-items: center;
     margin: 20px;
     text-align: center;
@@ -157,10 +155,6 @@ span {
 }
 
 .horiseon {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
     margin: 20px;
     text-align: center;
 }
@@ -168,12 +162,40 @@ span {
 .horiseon h3 {
     padding-top: 10px;
     font-size: 40px;
-    text-align: center;
 }
 
 .horiseon p {
     padding-top: 15px;
     font-size: 30px;
+}
+
+.budge-it {
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.budge-it h3 {
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.budge-it h3 a:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+.budge-it p {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.budge-it-link {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .contact {
@@ -207,4 +229,11 @@ span {
     padding: 0 0 30px 0;
     font-size: 40px;
     font-weight: bold;
+}
+
+.contact article ul li a:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 5px 10px;
 }
